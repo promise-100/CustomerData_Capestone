@@ -29,3 +29,14 @@ The dataset went through some processes of data cleaning and preparations to ens
 - Data Inspection.
 - Addressing missing values.
 - Removing Duplicates.
+
+### Exploratory Data Analysis(EDA).
+EDA involved the exploring of the data to answer some questions about the data such as;
+- Retrieve the total number of customers from each region.
+- Find the most popular subscription type by the number of customers.
+- Find customers who canceled their subscription within 6 months.
+- Calculate the average subscription duration for all customers.
+- Find customers with subscriptions longer than 12 months.
+- Calculate total revenue by subscription type.
+- Find the top 3 regions by subscription cancellations.
+- Find the total number of active and canceled subscription
