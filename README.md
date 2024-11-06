@@ -125,6 +125,64 @@ I also created some measures using DAX functions.
 
 ![DAX Formulars for creating measures](https://github.com/user-attachments/assets/118372fa-3bd8-4f99-a40e-6098b2fa6d91)
 
+### Data Visualization.
+1. Subscription by Region:
 
+   ![Subscription by region 2](https://github.com/user-attachments/assets/688a7c58-3c22-4362-9788-c5c6bf35f99a)
 
+   ##### Key Insight:
+   The East regionis leading with 8,488 subscriptions, the South has 8,446 subsciptions, the North region has 8,433 subscriptions while West has 8,420 subscrbers.There is a balanced subsciption distribution 
+   across the regions.
 
+   ##### Recommendation:
+   Maintain consistent marketing efforts across the regions.
+   
+
+2. Subscription Type by Revenue.
+
+   ![Revenue by subscription type](https://github.com/user-attachments/assets/401c2c15-e414-42c9-ac44-d7cd1d06c664)
+
+   ##### Key Insights.
+   The Basic subscription type generates revenue of $34M while the Standard and the premium subscription type  generates 17M. Basic subscirption type drives the majority of the revenue.
+
+   ##### Recommendation.
+   The variation between the Basic subscription type and the othe subscription is not minimal. Strong marketing campaigns should be deployed to the Standard and premium subscription plan. Pricing startegy should 
+   be reviewed, discounts and promotions should also be adopted.
+
+3. Cancellation vs Renewal.
+
+   ![CANCELLATION OVERVIEW](https://github.com/user-attachments/assets/bc74c4f5-c05b-4511-95d3-19aeca1d475e)
+
+   ##### Key Insights.
+   Cancellation rate is 55.09% while renewal rate is 44.91%. A higher cancellation rate indicates potential issues  with customer satisfaction.
+
+   ##### Recommendation.
+   Investigate reasons for cancellations. This can be achieved through the use of survey or feedbacks. Enhance customer support services and offer incentives e.g loyalty discount.
+  
+4. Cancellation by Subscription Type.
+
+   ![Subscription by cancellation](https://github.com/user-attachments/assets/90735140-04de-4f14-84f9-860009263c82)
+
+   ##### Key Insights.
+   Basic has 5067 cancellations, Premium has 5064 cancellations while Standard has 5044 cancellations. There is  similar cancellation rate across the subsciption type. no significant differenec in cancellation 
+   behaviour.
+
+   ##### Recommendations.
+   Analyze customers feedbacks for common cancellation reasons. Review pricing strategy and enhance customer support 
+   services.
+  
+  
+5. Customer"s Subscription Preference.
+
+   
+   ![Customers Subscription preference](https://github.com/user-attachments/assets/f46b732b-f341-4ff2-b1ea-72f38b02f23e)
+
+   ##### Key Insights.
+   Basic Subscription type is the most popular with a total number of 16,921 which is over 50% of the total subscibers. Premium subsciption type and Standard subscription type has a total of 8,446 subscribers 
+   and 8,420 subscribers respectively.
+
+   ##### Recommendations.
+   There should be targeted marketing for Premium and Standard subscription type, include exciting features in the premium and standard plan and also review their pricing strategy.
+   
+
+   
