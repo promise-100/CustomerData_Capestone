@@ -93,17 +93,20 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
    ```
  - Find the top 3 regions by subscription cancellations.
    ```
-  SELECT TOP 3 REGION, COUNT(SUBSCRIPTION_STATUS) AS CANCELLATION_COUNT
-  FROM [dbo].[CUSTOMERDATA_PROJECT]
-  WHERE SUBSCRIPTION_STATUS = 'CANCELLED'
-  GROUP BY REGION
-  ORDER BY CANCELLATION_COUNT DESC
-  ```
- - Find the total number of active and canceled subscription
-  ```
-  SELECT COUNT(SUBSCRIPTION_STATUS) AS CANCELLATION_COUNT
-  FROM [dbo].[CUSTOMERDATA_PROJECT]
-  WHERE REGION = 'EAST'AND SUBSCRIPTION_STATUS = 'CANCELLED'
-  ```
-#### Analysis using Microsoft Powerbi:
-I loaded the data into powerbi for further analysis and visaulization. After loading the dataset, i took it to transform in power query where i will clean the data to ensure data intergrity.
+   SELECT TOP 3 REGION, COUNT(SUBSCRIPTION_STATUS) AS CANCELLATION_COUNT
+   FROM [dbo].[CUSTOMERDATA_PROJECT]
+   WHERE SUBSCRIPTION_STATUS = 'CANCELLED'
+   GROUP BY REGION
+   ORDER BY CANCELLATION_COUNT DESC
+   ```
+ - Find the total number of active and canceled subscription.
+   ```
+   SELECT 
+   SUM(CASE WHEN SUBSCRIPTION_STATUS = 'ACTIVE' THEN 1 ELSE 0
+		 END) AS ACTIVE_SUBSCRIPTION,
+   SUM(CASE WHEN SUBSCRIPTION_STATUS = 'CANCELLED' THEN 1 ELSE 0
+		 END) AS CANCELLED_SUBSCRIPTION
+   FROM [dbo].[CUSTOMERDATA_PROJECT]
+   ```
+   
+
