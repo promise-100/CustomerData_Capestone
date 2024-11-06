@@ -1,5 +1,4 @@
-# CustomerData_Capestone
- This project involves a comprehensive analysis of a subscription service.
+# Customer Data Project
 
 ### Project Title: Subscription Analysis
 
@@ -41,9 +40,9 @@ EDA involved the exploring of the data to answer some questions about the data s
 - Find the top 3 regions by subscription cancellations.
 - Find the total number of active and canceled subscription
 
-  ### Data Analysis:
+### Data Analysis:
 This is where I include some Excel Formulars, SQL Queries and DAX Functions used during the analysis.
-- Analysis using Excel Formulars used:
+#### Analysis using Excel Formulars used:
   1. I started by creating a new column for Subscription duration(in months). 
   2. I also created another column for subscription status.   
      ![Creation of 2 columns(ii)](https://github.com/user-attachments/assets/4db333b0-289b-43f5-9e6d-bf73b2a0ecb1)
@@ -55,7 +54,7 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
  Below is the screenshot of the pivot tables created.
      ![pivot table customerdata](https://github.com/user-attachments/assets/f0977b25-cd91-4001-a778-f4e376dc7a87)
 
-- Analysis using SQL Queries used:
+#### Analysis using SQL Queries used:
   I used SQL Queries to answer the questions below:
 
  - Retrieve the total number of customers from each region.
@@ -86,14 +85,14 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
    WHERE SUBSCRIPTION_DURATION > 12
    ```
  - Calculate total revenue by subscription type.
- - ```
+   ```
    SELECT SUBSCRIPTIONTYPE, SUM(REVENUE) AS TOTAL_REVENUE
    FROM [dbo].[CUSTOMERDATA_PROJECT]
    GROUP BY SUBSCRIPTIONTYPE
    ORDER BY TOTAL_REVENUE DESC
    ```
  - Find the top 3 regions by subscription cancellations.
-  ```
+   ```
   SELECT TOP 3 REGION, COUNT(SUBSCRIPTION_STATUS) AS CANCELLATION_COUNT
   FROM [dbo].[CUSTOMERDATA_PROJECT]
   WHERE SUBSCRIPTION_STATUS = 'CANCELLED'
@@ -106,3 +105,5 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
   FROM [dbo].[CUSTOMERDATA_PROJECT]
   WHERE REGION = 'EAST'AND SUBSCRIPTION_STATUS = 'CANCELLED'
   ```
+#### Analysis using Microsoft Powerbi:
+I loaded the data into powerbi for further analysis and visaulization. After loading the dataset, i took it to transform in power query where i will clean the data to ensure data intergrity.
