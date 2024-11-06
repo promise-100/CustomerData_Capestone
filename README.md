@@ -46,11 +46,12 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
 - Analysis using Excel Formulars used:
   1. I started by creating a new column for Subscription duration(in months). 
   2. I also created another column for subscription status.   
-     ![Creation of 2 columns(ii)](https://github.com/user-attachments/assets/ab372866-840d-4caa-a220-0fcb445fb310)
+     ![Creation of 2 columns(ii)](https://github.com/user-attachments/assets/4db333b0-289b-43f5-9e6d-bf73b2a0ecb1)
 
   3. Most popular subscription type.
-     ![Most subscription type](https://github.com/user-attachments/assets/9a302fb7-7133-4516-b583-7a868ed12c49)
+     ![Most subscription type](https://github.com/user-attachments/assets/4dd96788-90d3-4a10-b56d-c7067b83726d)
 
  After the analysis on the microsoft excel worksheet, I summarized the data using pivot table.
  Below is the screenshot of the pivot tables created.
+     ![pivot table customerdata](https://github.com/user-attachments/assets/f0977b25-cd91-4001-a778-f4e376dc7a87)
 
