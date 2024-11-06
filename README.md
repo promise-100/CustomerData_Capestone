@@ -55,3 +55,54 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
  Below is the screenshot of the pivot tables created.
      ![pivot table customerdata](https://github.com/user-attachments/assets/f0977b25-cd91-4001-a778-f4e376dc7a87)
 
+- Analysis using SQL Queries used:
+  I used SQL Queries to answer the questions below:
+
+ - Retrieve the total number of customers from each region.
+   ```
+   SELECT REGION, COUNT(DISTINCT CUSTOMERID) AS TOTAL_CUSTOMERS
+   FROM [dbo].[CUSTOMERDATA_PROJECT]
+   GROUP BY REGION
+   ```
+ - Find the most popular subscription type by the number of customers.
+   ```
+   SELECT REGION, COUNT(DISTINCT CUSTOMERID) AS TOTAL_CUSTOMERS
+   FROM [dbo].[CUSTOMERDATA_PROJECT]
+   GROUP BY REGION
+   ```
+ - Find customers who canceled their subscription within 6 months.
+   ```
+   SELECT CUSTOMERID, SUBSCRIPTION_DURATION FROM [dbo].[CUSTOMERDATA_PROJECT]
+   WHERE SUBSCRIPTION_STATUS = 'CANCELLED' AND SUBSCRIPTION_DURATION <= 6
+   ```
+ - Calculate the average subscription duration for all customers.
+   ```
+   SELECT AVG(SUBSCRIPTION_DURATION) AS AVERAGE_SUBSCRIPTION_DURATION
+   FROM [dbo].[CUSTOMERDATA_PROJECT]
+   ``` 
+ - Find customers with subscriptions longer than 12 months.
+   ```
+   SELECT CUSTOMERID, SUBSCRIPTION_DURATION FROM [dbo].[CUSTOMERDATA_PROJECT]
+   WHERE SUBSCRIPTION_DURATION > 12
+   ```
+ - Calculate total revenue by subscription type.
+ - ```
+   SELECT SUBSCRIPTIONTYPE, SUM(REVENUE) AS TOTAL_REVENUE
+   FROM [dbo].[CUSTOMERDATA_PROJECT]
+   GROUP BY SUBSCRIPTIONTYPE
+   ORDER BY TOTAL_REVENUE DESC
+   ```
+ - Find the top 3 regions by subscription cancellations.
+  ```
+  SELECT TOP 3 REGION, COUNT(SUBSCRIPTION_STATUS) AS CANCELLATION_COUNT
+  FROM [dbo].[CUSTOMERDATA_PROJECT]
+  WHERE SUBSCRIPTION_STATUS = 'CANCELLED'
+  GROUP BY REGION
+  ORDER BY CANCELLATION_COUNT DESC
+  ```
+ - Find the total number of active and canceled subscription
+  ```
+  SELECT COUNT(SUBSCRIPTION_STATUS) AS CANCELLATION_COUNT
+  FROM [dbo].[CUSTOMERDATA_PROJECT]
+  WHERE REGION = 'EAST'AND SUBSCRIPTION_STATUS = 'CANCELLED'
+  ```
