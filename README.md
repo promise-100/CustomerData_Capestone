@@ -109,4 +109,22 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
    FROM [dbo].[CUSTOMERDATA_PROJECT]
    ```
    
+#### Analysis using Microsoft Powerbi:
+I loaded the data into powerbi for further analysis and visaulization. After loading the dataset, i took it to transform in power query where i will clean the data to ensure column quality
+
+![Transformed data](https://github.com/user-attachments/assets/6a617274-000b-40ba-aea7-80afd0e2e329)
+
+After i have ascertained the quality of the data, i began my analyss in microsoft powerbi.  I creating a conditional column for cancellation count and renewal count which will help me to calculate cancellation rate and renewal rate.
+
+![CANCELLATION COUNT 2](https://github.com/user-attachments/assets/014c3f1e-3640-407c-8253-d8a174731d4c)
+
+![RENEWAL COUNT 2](https://github.com/user-attachments/assets/5544ef02-011c-4759-af5d-db57edda9569)
+
+
+I also created some measures using DAX functions.
+
+![DAX Formulars for creating measures](https://github.com/user-attachments/assets/118372fa-3bd8-4f99-a40e-6098b2fa6d91)
+
+
+
 
