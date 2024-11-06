@@ -183,6 +183,19 @@ I also created some measures using DAX functions.
 
    ##### Recommendations.
    There should be targeted marketing for Premium and Standard subscription type, include exciting features in the premium and standard plan and also review their pricing strategy.
+
+### Conclusion.
+The analysis reveals a relatively balanced distribution across regions, subscription types and customer preferences. However, there are opportunity for growth and improvement.
+ ##### Some Key Takeaways:
+ - Balanced regional distribution with East slightly leading.
+ - Basic Subscription is the most popular.
+ - Cancellation rate is higher than renewal rate indicating issues with customer satisfaction.
+ - Even distribution across Premium and Standard Subscription Type.
+ #### Strategic Recommendation.
+ - Review pricing strategy.
+ - Enhance customer support services
+ - Develop targeted marketing campaigns in under performing regions and under performing subscription types.
+ - Anlyse customer feedbacks.
    
 
    
