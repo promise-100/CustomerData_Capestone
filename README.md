@@ -29,7 +29,7 @@ The dataset went through some processes of data cleaning and preparations to ens
 - Addressing missing values.
 - Removing Duplicates.
 
-### Exploratory Data Analysis(EDA).
+### Exploratory Data Analysis(EDA):
 EDA involved the exploring of the data to answer some questions about the data such as;
 - Retrieve the total number of customers from each region.
 - Find the most popular subscription type by the number of customers.
@@ -42,7 +42,7 @@ EDA involved the exploring of the data to answer some questions about the data s
 
 ### Data Analysis:
 This is where I include some Excel Formulars, SQL Queries and DAX Functions used during the analysis.
-#### Analysis using Excel Formulars used:
+#### Analysis using Excel Formulars:
   1. I started by creating a new column for Subscription duration(in months). 
   2. I also created another column for subscription status.   
      ![Creation of 2 columns(ii)](https://github.com/user-attachments/assets/4db333b0-289b-43f5-9e6d-bf73b2a0ecb1)
@@ -54,7 +54,7 @@ This is where I include some Excel Formulars, SQL Queries and DAX Functions used
  Below is the screenshot of the pivot tables created.
      ![pivot table customerdata](https://github.com/user-attachments/assets/f0977b25-cd91-4001-a778-f4e376dc7a87)
 
-#### Analysis using SQL Queries used:
+#### Analysis using SQL Queries:
   I used SQL Queries to answer the questions below:
 
  - Retrieve the total number of customers from each region.
@@ -142,10 +142,10 @@ I also created some measures using DAX functions.
 
    ![Revenue by subscription type](https://github.com/user-attachments/assets/401c2c15-e414-42c9-ac44-d7cd1d06c664)
 
-   #### Key Insights.
+   #### Key Insights:
    The Basic subscription type generates revenue of $34M while the Standard and the premium subscription type  generates 17M. Basic subscirption type drives the majority of the revenue.
 
-   #### Recommendation.
+   #### Recommendation:
    The variation between the Basic subscription type and the othe subscription is not minimal. Strong marketing campaigns should be deployed to the Standard and premium subscription plan. Pricing startegy should 
    be reviewed, discounts and promotions should also be adopted.
 
@@ -153,21 +153,21 @@ I also created some measures using DAX functions.
 
    ![CANCELLATION OVERVIEW](https://github.com/user-attachments/assets/bc74c4f5-c05b-4511-95d3-19aeca1d475e)
 
-   #### Key Insights.
+   #### Key Insights:
    Cancellation rate is 55.09% while renewal rate is 44.91%. A higher cancellation rate indicates potential issues  with customer satisfaction.
 
-   #### Recommendation.
+   #### Recommendation:
    Investigate reasons for cancellations. This can be achieved through the use of survey or feedbacks. Enhance customer support services and offer incentives e.g loyalty discount.
   
 4. Cancellation by Subscription Type.
 
    ![Subscription by cancellation](https://github.com/user-attachments/assets/90735140-04de-4f14-84f9-860009263c82)
 
-   #### Key Insights.
+   #### Key Insights:
    Basic has 5067 cancellations, Premium has 5064 cancellations while Standard has 5044 cancellations. There is  similar cancellation rate across the subsciption type. no significant differenec in cancellation 
    behaviour.
 
-   #### Recommendations.
+   #### Recommendations:
    Analyze customers feedbacks for common cancellation reasons. Review pricing strategy and enhance customer support 
    services.
   
@@ -177,11 +177,11 @@ I also created some measures using DAX functions.
    
    ![Customers Subscription preference](https://github.com/user-attachments/assets/f46b732b-f341-4ff2-b1ea-72f38b02f23e)
 
-  #### Key Insights.
+  #### Key Insights:
    Basic Subscription type is the most popular with a total number of 16,921 which is over 50% of the total subscibers. Premium subsciption type and Standard subscription type has a total of 8,446 subscribers 
    and 8,420 subscribers respectively.
 
-  #### Strategic Recommendations.
+  #### Strategic Recommendations:
    There should be targeted marketing for Premium and Standard subscription type, include exciting features in the premium and standard plan and also review their pricing strategy.
 
  
@@ -193,7 +193,7 @@ I also created some measures using DAX functions.
  - Basic Subscription is the most popular.
  - Cancellation rate is higher than renewal rate indicating issues with customer satisfaction.
  - Even distribution across Premium and Standard Subscription Type.
-  #### Strategic Recommendation.
+  #### Strategic Recommendation:
  - Review pricing strategy.
  - Enhance customer support services
  - Develop targeted marketing campaigns in under performing regions and under performing subscription types.
