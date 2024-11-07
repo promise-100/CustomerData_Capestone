@@ -203,28 +203,37 @@ I also created some measures using DAX functions.
    
    ![Customers Subscription preference](https://github.com/user-attachments/assets/f46b732b-f341-4ff2-b1ea-72f38b02f23e)
 
-  #### Key Insights:
+   #### Key Insights:
    Basic Subscription type is the most popular with a total number of 16,921 which is over 50% of the total subscibers. Premium subsciption type and Standard subscription type has a total of 8,446 subscribers 
    and 8,420 subscribers respectively.
 
-  #### Strategic Recommendations:
+   #### Strategic Recommendations:
    There should be targeted marketing for Premium and Standard subscription type, include exciting features in the premium and standard plan and also review their pricing strategy.
 
+   ### Have a view of my Dashboards:
+   ---
+   ![Subscription Dasboard 01](https://github.com/user-attachments/assets/7f4f3b84-282d-456a-b6f0-0b7dd13afdf2)
+
+
+   ![Subscription Dashboard 02](https://github.com/user-attachments/assets/85d447b5-53f1-4dc0-8a90-10adb50ab6cf)
+
+
+   ![Subsrciption Dashboard 03](https://github.com/user-attachments/assets/831b6f67-f817-48fc-85d8-9dcd8be15438)
+
+   ### Conclusion:
+   ---
+   The analysis reveals a relatively balanced distribution across regions, subscription types and customer preferences. However, there are opportunity for growth and improvement.
  
-  ### Conclusion:
-  ---
-  The analysis reveals a relatively balanced distribution across regions, subscription types and customer preferences. However, there are opportunity for growth and improvement.
- 
-  #### Some Key Takeaways:
- - Balanced regional distribution with East slightly leading.
- - Basic Subscription is the most popular.
- - Cancellation rate is higher than renewal rate indicating issues with customer satisfaction.
- - Even distribution across Premium and Standard Subscription Type.
-  #### Strategic Recommendation:
- - Review pricing strategy.
- - Enhance customer support services
- - Develop targeted marketing campaigns in under performing regions and under performing subscription types.
- - Anlyse customer feedbacks.
+   #### Some Key Takeaways:
+   - Balanced regional distribution with East slightly leading.
+   - Basic Subscription is the most popular.
+   - Cancellation rate is higher than renewal rate indicating issues with customer satisfaction.
+   - Even distribution across Premium and Standard Subscription Type.
+   #### Strategic Recommendation:
+   - Review pricing strategy.
+   - Enhance customer support services
+   - Develop targeted marketing campaigns in under performing regions and under performing subscription types.
+   - Anlyse customer feedbacks.
    
 
    
