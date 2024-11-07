@@ -2,16 +2,38 @@
 
 ### Project Title: Subscription Analysis
 
+[Project Overview](#project-overview)
+
+[Data Sources](#data-sources)
+
+[Data Structure](#data-structure)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
+[Conclusion](#conclusion)
+
 ### Project Overview:
-This project involves analyzing customer data for a subscription service to identify segments and trends. My goal is to understand customer behavior, track subscription types and identify key trends in cancellations and renewals. This project showcases my ability to manipulate and derieve insights from large dataset, enabling me to make data driven recommendations.
+---
+This project involves analyzing customer data of a subscription service to identify segments and trends. My goal is to understand customer behavior, track subscription types and identify key trends in cancellations and renewals. This project showcases my ability to manipulate and derieve insights from large dataset, enabling me to make data driven recommendations.
 
 ### Data Sources:
+---
 Considering this is a capestone project, my trainer, The Incubator Hub provided the customer subscription dataset for this analysis.
 
 ### Data Structure:
+---
 The original dataset is an excel file with 75,000 rows and 7 columns which includes: CustomerID, Customer Name, Region, Subscriptionstart, Sudscriptionend, cancelled and Revenue.
 
 ### Tools Used:
+---
 - Microsoft Excel [Download Here](https:www.microsoft.com)
    1. For Data Cleaning and Analysis.
    2. For Data Analysis.
@@ -24,13 +46,15 @@ The original dataset is an excel file with 75,000 rows and 7 columns which inclu
    1. For Portfolio Building.
 
 ### Data Cleaning and Preparation:
+---
 The dataset went through some processes of data cleaning and preparations to ensure accuracy and consistency. This involves;
 - Data Inspection.
 - Addressing missing values.
 - Removing Duplicates.
 
-### Exploratory Data Analysis(EDA):
-EDA involved the exploring of the data to answer some questions about the data such as;
+### Exploratory Data Analysis:
+---
+Exploratory Data Analysis involves the exploring of the data to answer some questions about the data such as;
 - Retrieve the total number of customers from each region.
 - Find the most popular subscription type by the number of customers.
 - Find customers who canceled their subscription within 6 months.
@@ -41,6 +65,7 @@ EDA involved the exploring of the data to answer some questions about the data s
 - Find the total number of active and canceled subscription
 
 ### Data Analysis:
+---
 This is where I include some Excel Formulars, SQL Queries and DAX Functions used during the analysis.
 #### Analysis using Excel Formulars:
   1. I started by creating a new column for Subscription duration(in months). 
@@ -125,7 +150,8 @@ I also created some measures using DAX functions.
 
 ![DAX Formulars for creating measures](https://github.com/user-attachments/assets/118372fa-3bd8-4f99-a40e-6098b2fa6d91)
 
-### Data Visualization.
+### Data Visualization:
+---
 1. Subscription by Region:
 
    ![Subscription by region 2](https://github.com/user-attachments/assets/688a7c58-3c22-4362-9788-c5c6bf35f99a)
@@ -185,7 +211,8 @@ I also created some measures using DAX functions.
    There should be targeted marketing for Premium and Standard subscription type, include exciting features in the premium and standard plan and also review their pricing strategy.
 
  
-  ### Conclusion.
+  ### Conclusion:
+  ---
   The analysis reveals a relatively balanced distribution across regions, subscription types and customer preferences. However, there are opportunity for growth and improvement.
  
   #### Some Key Takeaways:
