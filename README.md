@@ -152,7 +152,7 @@ I also created some measures using DAX functions.
 
 ### Data Visualization:
 ---
-1. Subscription by Region:
+#### 1. Subscription by Region:
 
    ![Subscription by region 2](https://github.com/user-attachments/assets/688a7c58-3c22-4362-9788-c5c6bf35f99a)
 
@@ -164,7 +164,7 @@ I also created some measures using DAX functions.
    Maintain consistent marketing efforts across the regions.
    
 
-2. Subscription Type by Revenue.
+#### 2. Subscription Type by Revenue.
 
    ![Revenue by subscription type](https://github.com/user-attachments/assets/401c2c15-e414-42c9-ac44-d7cd1d06c664)
 
@@ -175,7 +175,7 @@ I also created some measures using DAX functions.
    The variation between the Basic subscription type and the othe subscription is not minimal. Strong marketing campaigns should be deployed to the Standard and premium subscription plan. Pricing startegy should 
    be reviewed, discounts and promotions should also be adopted.
 
-3. Cancellation vs Renewal.
+#### 3. Cancellation vs Renewal.
 
    ![CANCELLATION OVERVIEW](https://github.com/user-attachments/assets/bc74c4f5-c05b-4511-95d3-19aeca1d475e)
 
@@ -185,7 +185,7 @@ I also created some measures using DAX functions.
    #### Recommendation:
    Investigate reasons for cancellations. This can be achieved through the use of survey or feedbacks. Enhance customer support services and offer incentives e.g loyalty discount.
   
-4. Cancellation by Subscription Type.
+#### 4. Cancellation by Subscription Type.
 
    ![Subscription by cancellation](https://github.com/user-attachments/assets/90735140-04de-4f14-84f9-860009263c82)
 
@@ -198,7 +198,7 @@ I also created some measures using DAX functions.
    services.
   
   
-5. Customer"s Subscription Preference.
+#### 5. Customer"s Subscription Preference.
 
    
    ![Customers Subscription preference](https://github.com/user-attachments/assets/f46b732b-f341-4ff2-b1ea-72f38b02f23e)
